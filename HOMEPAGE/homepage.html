@@ -1,0 +1,322 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nieuws</title>
+    <link href="homepage.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </link>
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="top">
+        <div class="container-1">
+            <div class="row-1">
+                <div class="logo">
+                    <a id="fakenewslogo" href="justinmind_afb/logo.png"></a>
+                </div>
+                <div class="linkerkant">
+                    <nav>
+                        <ul class="main-menu-1">
+                            <li>
+                                <a href="#" id="toggleBtn">
+                                  <i id="icon_mode" class="fa-solid fa-moon"></i>
+                                </a>
+                              </li>
+                            <li class="Home" id="aaaa">
+                                <a href="#Nieuws">Nieuws</a>
+                            </li>
+
+                            <li class="Weer">
+                                <a href="#weer">Weer</a>
+                            </li>
+                            <li class="Contact">
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="midden">
+                    <a id="logo-1">
+                        <img id="logo" src="justinmind_afb/L_Logo.png" alt="Fake" width="150">
+                    </a>
+                </div>
+                <div class="rechterkant" id="sm_mode">
+                    <ul class="main-menu-2">
+                        <li>
+                            <a href="#Instagram">
+                                <span class="screenreadertext">Instagram</span>
+                                <i class="fa-brands fa-instagram " aria-hidden="true"></i>
+                            </a>
+                            <a href="#Youtube">
+                                <span class="screenreadertext">Youtube</span>
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="#Twitter">
+                                <span class="screenreadertext">Twitter</span>
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#Facebook">
+                                <span class="screenreadertext">Facebook</span>
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="midden">
+                    <ul class="main-menu-3">
+                        <li id="abonneer-btn" class="button-primary">
+                            <a href="#Abonneer">
+                                <!-- <button type="button" class="btn btn-primary">Abonneer</button> -->
+                                <button class="button-24" role="button">ABONNEER</button>
+                                <span class="screenreadertext">Abonneer</span>
+                            </a>
+                        </li>
+                        <li id="login-btn">
+                            <a href="Inloggen">
+                                <span class="screenreadertext">Inloggen</span>
+                                <i class="fa-solid fa-user icon"></i>
+                            </a>
+                        </li>
+                        <li id="search-btn">
+                            <a href="#zoeken">
+                                <span class="screenreadertext">Zoeken</span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row row-2" >
+                <div class="col">
+                <div class="search-bar">
+                    <form action="#">
+                    <input type="text" placeholder="Search..." >
+                    <button class="button-28" type="submit" role="button">SEARCH</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Hero start-->
+
+    <div class="flex-container">
+        <section class="container" style="margin-left: 0; margin-right: 0;">
+            <h2 class="title">
+                <span class="primary" id="titel">Recente nieuws</span>
+                <span class="secondary">
+                    Hover met je muis over de afbeeldingen voor meer info
+                </span>
+            </h2>
+            <div class="gallery-wrapper" data-aos="fade-down">
+                <figure class="gallery-item">
+                    <a href="#sleep">
+                    <img src="../images/sleepingfemale.jpg" alt="" class="item-image" />
+                    </a>
+                    <figcaption class="item-description">
+                        <a href="#link2">
+                        <h2 class="name">Nieuwe studie toont aan dat regelmatige powernaps de productiviteit kunnen verhogen</h2>
+                        </a>
+                        <span class="role">Bron: ChatGPT</span>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <a href="#sleep">
+                    <img src="../images/olympischespelen.jpg" alt="" class="item-image" />
+                    </a>
+                    <figcaption class="item-description">
+                        <a href="#link2">
+                        <h2 class="name">Olympische Spelen in Parijs 2024 introduceren nieuwe sporten om jongere doelgroepen te bereiken</h2>
+                        </a>
+                        <span class="role">Bron: ChatGPT</span>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <a href="#sleep">
+                    <img src="../images/wnba.jpeg" alt="" class="item-image" />
+                    </a>
+                    <figcaption class="item-description">
+                        <a href="#link2">
+                        <h2 class="name">WNBA-sterren protesteren tegen ongelijkheid in salarissen en investeringen</h2>
+                        </a>
+                        <span class="role">Bron: ChatGPT</span>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <a href="#sleep">
+                    <img src="../images/area51.jpg" alt="" class="item-image" />
+                    </a>
+                    <figcaption class="item-description">
+                        <a href="#link2">
+                        <h2 class="name">Gelekte beelden van area 51</h2>
+                        </a>
+                        <span class="role">Bron: ChatGPT</span>
+                    </figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <a href="#sleep">
+                    <img src="../images/tiktok.jpg" alt="" class="item-image" />
+                    </a>
+                    <figcaption class="item-description">
+                        <a href="#link2">
+                        <h2 class="name">TikTok introduceert nieuwe functies om cyberpesten aan te pakken</h2>
+                        </a>
+                        <span class="role">Bron: ChatGPT</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="container-3-border" data-aos="fade-down" data-aos-duration="700">
+            <div class="container-3">
+                <h1>IETS GEMIST?</h1>
+                
+            </div>
+            <div class="nieuws-2" >
+                <ul>
+                <li>
+                    <a href="#link-1">
+                    <p id="titels2">Roblox geeft gratis robux uit. <br> Ben jij minderjarig en wil je heel...</p>
+                    </a>
+                </li>
+                <li>
+                <a href="#link-1">
+                <p id="titels3">Er zijn geruchten over GTA 6. <br> Kan het zo zijn dat de populaire spel...</p>
+                </a>
+                </li>
+                <li>
+                <a href="#link-1">
+                <p id="titels4">kinderen van Amsterdam protesteren <br> Kinderen van verschillende scholen...</p>
+                </a>
+                </li>
+                </ul>
+            </div>
+            <div class="button-container">
+            <button class="button-24-2" role="button">Bekijk meer</button>
+            </div>
+        </section>
+    </div>    
+    <!--Hero end-->
+    <div class="onder-img">
+        <div class="img-hover-zoom">
+          <img src="..//images/covid.jpg" alt="This zooms-in really well and smooth">
+          <a href="#Corona">
+            <span>Corona</span>
+          </a>
+          <p>Nieuwe maatregelen tegen verspreiding van coronavirus in Nederland</p>
+          <a href="#Corona">
+            <span id="box-1">
+              <p>Meer</p>
+            </span>
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+      
+        <div class="img-hover-zoom">
+          <img src="..//images/fehnerbache.jpg" alt="This zooms-in really well and smooth" height="205" width="500">
+          <a href="#Euroleague">
+            <span>Euroleague</span>
+          </a>
+          <p>Fenerbahce wint van Panathinaikos in intense Euroleague wedstrijd</p>
+          <a href="#Euroleague">
+            <span id="box-1">
+              <p>Meer</p>
+            </span>
+            <i class="fa-solid fa-arrow-down" id="arrow-2"></i>
+          </a>
+        </div>
+      
+        <div class="img-hover-zoom">
+          <img src="..//images/blikje.jpg" alt="This zooms-in really well and smooth" height="205" width="600">
+          <a href="#Zaterdag">
+            <span>Vanaf zaterdag</span>
+          </a>
+          <p>Blikje meenemen voor statiegeld: gaan we dat echt doen?</p>
+          <a href="#Zaterdag">
+            <span id="box-1">
+              <p>Meer</p>
+            </span>
+            <i class="fa-solid fa-arrow-down" id="arrow-3"></i>
+          </a>
+        </div>
+    </div>
+
+    <div class="Corona">
+        <section id="Corona">
+            <span id="box-2"></span>
+            <div id="text-row">
+                <h1 data-aos="fade-right">CORONA</h1>
+                <div id="text-image">
+                <p data-aos="fade-right" data-aos-offset="300">De Nederlandse regering heeft zojuist aangekondigd dat er nieuwe maatregelen zullen worden genomen om de verspreiding van het coronavirus tegen te gaan. <br><br>Vanaf morgen zullen alle restaurants en cafés in het hele land sluiten om verdere verspreiding van het virus te voorkomen. Ook zullen er strengere regels komen voor het dragen van mondkapjes en het houden van afstand. <br><br>Daarnaast zullen alle scholen en universiteiten worden gesloten voor de komende twee weken. Dit zal resulteren in een verschuiving van de lessen naar online leerplatforms. <br><br>De regering hoopt dat deze nieuwe maatregelen zullen helpen om de verspreiding van het virus onder controle te krijgen en de Nederlandse bevolking veilig te houden. </p>
+                <div class="image-container-n" data-aos="fade-left">
+                <img src="..//images/corona2.jpg">
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="Euroleague">
+        <section id="Euroleague">
+            <span id="box-3"></span>
+            <div id="text-row">
+                <h1 data-aos="fade-right">EUROLEAGUE</h1>
+                <div id="text-image">
+                    <p data-aos="fade-right" data-aos-offset="300">
+                        Fenerbahce wint van Panathinaikos in intense Euroleague wedstrijd<br>
+                        <br>
+                        In een intense Euroleague wedstrijd hebben Fenerbahce en Panathinaikos gestreden om de overwinning. Na een spannende wedstrijd waarbij beide teams aan elkaar gewaagd waren, wist Fenerbahce uiteindelijk de overwinning te pakken met een eindscore van 85-80.<br>
+                        <br>
+                        De wedstrijd begon met een voorsprong voor Panathinaikos, maar Fenerbahce gaf niet op en wist geleidelijk de leiding over te nemen. Met een aantal belangrijke driepunters wist Fenerbahce de voorsprong te behouden en de wedstrijd naar hun hand te zetten.<br>
+                        <br>
+                        De fans van Fenerbahce vierden de overwinning uitbundig en de spelers waren duidelijk opgelucht en blij met de belangrijke overwinning. Deze overwinning zet Fenerbahce weer stevig op de kaart in de Euroleague en belooft veel goeds voor de rest van het seizoen.
+                    </p>
+                    <div class="image-container-n" data-aos="fade-left">
+                    <img src="..//images/fehnerbache2.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="Zaterdag">
+        <section id="Zaterdag">
+            <span id="box-4"></span>
+            <div id="text-row">
+                <h1 data-aos="fade-right">Zaterdag</h1>
+                <div id="text-image">
+                    <p data-aos="fade-right" data-aos-offset="300">Blikje meenemen voor statiegeld: gaan we dat echt doen?
+                    <br>
+                    Er gaan geruchten dat het binnenkort verplicht wordt gesteld om lege blikjes mee te nemen voor statiegeld. Volgens bronnen binnen de overheid zou dit een effectieve manier zijn om zwerfafval te verminderen en het milieu te beschermen. Mensen die betrapt worden op het niet meenemen van lege blikjes kunnen een boete krijgen van maar liefst €150,-.
+                    <br><br>
+                    Deze nieuwe regeling heeft echter voor veel discussie gezorgd onder de bevolking. Sommige mensen zijn van mening dat het een goede maatregel is, terwijl anderen het als een inbreuk op hun vrijheid zien. Ook zijn er zorgen geuit over de veiligheid van mensen die met tassen vol lege blikjes over straat moeten. Daarnaast vragen veel mensen zich af hoe de overheid de naleving van deze regeling gaat controleren.
+                    <br><br>
+                    Op social media zijn de meningen verdeeld. Sommige mensen roepen op tot actie en willen de regering laten weten dat ze tegen deze regeling zijn, terwijl anderen het initiatief toejuichen. Het is nog niet bekend of deze regeling daadwerkelijk ingevoerd zal worden, maar het is duidelijk dat het onderwerp leeft onder de bevolking.
+                    </p>
+                    <div class="image-container-n" data-aos="fade-left">
+                    <img src="..//images/blikjes.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<hr>
+<footer>
+
+</footer>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
